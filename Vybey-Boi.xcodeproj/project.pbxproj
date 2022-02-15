@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D52802E27B6F13D00E3FE97 /* Vybey_BoiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52802D27B6F13D00E3FE97 /* Vybey_BoiApp.swift */; };
+		4D52803027B6F13D00E3FE97 /* LoopingVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52802F27B6F13D00E3FE97 /* LoopingVideoCell.swift */; };
+		4D52803227B6F13F00E3FE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52803127B6F13F00E3FE97 /* Assets.xcassets */; };
+		4D52803527B6F13F00E3FE97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52803427B6F13F00E3FE97 /* Preview Assets.xcassets */; };
+		4D52803F27B6F13F00E3FE97 /* Vybey_BoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52803E27B6F13F00E3FE97 /* Vybey_BoiTests.swift */; };
+		4D52804927B6F13F00E3FE97 /* Vybey_BoiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52804827B6F13F00E3FE97 /* Vybey_BoiUITests.swift */; };
+		4D52804B27B6F13F00E3FE97 /* Vybey_BoiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52804A27B6F13F00E3FE97 /* Vybey_BoiUITestsLaunchTests.swift */; };
+		4D52805B27B6F17200E3FE97 /* SBVideoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52805A27B6F17200E3FE97 /* SBVideoScroll.swift */; };
+		4D52805D27B6F22C00E3FE97 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52805C27B6F22C00E3FE97 /* WebService.swift */; };
+		4D52805F27B6F67D00E3FE97 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52805E27B6F67D00E3FE97 /* VideoModel.swift */; };
+		4D52806227B6F6FC00E3FE97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52806127B6F6FC00E3FE97 /* Constants.swift */; };
+		4D52806427B6F93900E3FE97 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52806327B6F93900E3FE97 /* Endpoints.swift */; };
+		4D52806727B7017600E3FE97 /* launch-demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4D52806627B7017600E3FE97 /* launch-demo.mov */; };
+		4D52806B27B71B2800E3FE97 /* VideoModelAPIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52806A27B71B2800E3FE97 /* VideoModelAPIRequests.swift */; };
+		4D52806D27B7241B00E3FE97 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52806C27B7241B00E3FE97 /* Env.swift */; };
+		4D52806F27BABFAB00E3FE97 /* VideoNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52806E27BABFAB00E3FE97 /* VideoNotifier.swift */; };
+		4D811BF927BBF2B50076FE32 /* SBScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D811BF827BBF2B50076FE32 /* SBScrollView.swift */; };
+		4DDFB15F27BC447B00AF6BF4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFB15E27BC447B00AF6BF4 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D52803B27B6F13F00E3FE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D52802227B6F13D00E3FE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D52802927B6F13D00E3FE97;
+			remoteInfo = "Vybey-Boi";
+		};
+		4D52804527B6F13F00E3FE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D52802227B6F13D00E3FE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D52802927B6F13D00E3FE97;
+			remoteInfo = "Vybey-Boi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D52802A27B6F13D00E3FE97 /* Vybey-Boi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vybey-Boi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D52802D27B6F13D00E3FE97 /* Vybey_BoiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vybey_BoiApp.swift; sourceTree = "<group>"; };
+		4D52802F27B6F13D00E3FE97 /* LoopingVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingVideoCell.swift; sourceTree = "<group>"; };
+		4D52803127B6F13F00E3FE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D52803427B6F13F00E3FE97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D52803A27B6F13F00E3FE97 /* Vybey-BoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vybey-BoiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D52803E27B6F13F00E3FE97 /* Vybey_BoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vybey_BoiTests.swift; sourceTree = "<group>"; };
+		4D52804427B6F13F00E3FE97 /* Vybey-BoiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vybey-BoiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D52804827B6F13F00E3FE97 /* Vybey_BoiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vybey_BoiUITests.swift; sourceTree = "<group>"; };
+		4D52804A27B6F13F00E3FE97 /* Vybey_BoiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vybey_BoiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D52805A27B6F17200E3FE97 /* SBVideoScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBVideoScroll.swift; sourceTree = "<group>"; };
+		4D52805C27B6F22C00E3FE97 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4D52805E27B6F67D00E3FE97 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		4D52806127B6F6FC00E3FE97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D52806327B6F93900E3FE97 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		4D52806627B7017600E3FE97 /* launch-demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "launch-demo.mov"; sourceTree = "<group>"; };
+		4D52806A27B71B2800E3FE97 /* VideoModelAPIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModelAPIRequests.swift; sourceTree = "<group>"; };
+		4D52806C27B7241B00E3FE97 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		4D52806E27BABFAB00E3FE97 /* VideoNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoNotifier.swift; sourceTree = "<group>"; };
+		4D811BF827BBF2B50076FE32 /* SBScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBScrollView.swift; sourceTree = "<group>"; };
+		4D811BFA27BBFB9D0076FE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DDFB15E27BC447B00AF6BF4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D52802727B6F13D00E3FE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52803727B6F13F00E3FE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52804127B6F13F00E3FE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D52802127B6F13D00E3FE97 = {
+			isa = PBXGroup;
+			children = (
+				4D52802C27B6F13D00E3FE97 /* Vybey-Boi */,
+				4D52803D27B6F13F00E3FE97 /* Vybey-BoiTests */,
+				4D52804727B6F13F00E3FE97 /* Vybey-BoiUITests */,
+				4D52802B27B6F13D00E3FE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D52802B27B6F13D00E3FE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D52802A27B6F13D00E3FE97 /* Vybey-Boi.app */,
+				4D52803A27B6F13F00E3FE97 /* Vybey-BoiTests.xctest */,
+				4D52804427B6F13F00E3FE97 /* Vybey-BoiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D52802C27B6F13D00E3FE97 /* Vybey-Boi */ = {
+			isa = PBXGroup;
+			children = (
+				4D811BFA27BBFB9D0076FE32 /* Info.plist */,
+				4D52806527B700FA00E3FE97 /* MockData */,
+				4D52806027B6F6E600E3FE97 /* Constants */,
+				4D52805927B6F15400E3FE97 /* Views */,
+				4D52805827B6F14C00E3FE97 /* Services */,
+				4D52805727B6F14700E3FE97 /* Model */,
+				4D52802D27B6F13D00E3FE97 /* Vybey_BoiApp.swift */,
+				4D52803127B6F13F00E3FE97 /* Assets.xcassets */,
+				4D52803327B6F13F00E3FE97 /* Preview Content */,
+			);
+			path = "Vybey-Boi";
+			sourceTree = "<group>";
+		};
+		4D52803327B6F13F00E3FE97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D52803427B6F13F00E3FE97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D52803D27B6F13F00E3FE97 /* Vybey-BoiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D52803E27B6F13F00E3FE97 /* Vybey_BoiTests.swift */,
+			);
+			path = "Vybey-BoiTests";
+			sourceTree = "<group>";
+		};
+		4D52804727B6F13F00E3FE97 /* Vybey-BoiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D52804827B6F13F00E3FE97 /* Vybey_BoiUITests.swift */,
+				4D52804A27B6F13F00E3FE97 /* Vybey_BoiUITestsLaunchTests.swift */,
+			);
+			path = "Vybey-BoiUITests";
+			sourceTree = "<group>";
+		};
+		4D52805727B6F14700E3FE97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D52806927B71B0F00E3FE97 /* Video */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D52805827B6F14C00E3FE97 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D52805C27B6F22C00E3FE97 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4D52805927B6F15400E3FE97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DDFB15D27BC3D4000AF6BF4 /* Components */,
+				4D52805A27B6F17200E3FE97 /* SBVideoScroll.swift */,
+				4D811BF827BBF2B50076FE32 /* SBScrollView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D52806027B6F6E600E3FE97 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4D52806127B6F6FC00E3FE97 /* Constants.swift */,
+				4D52806327B6F93900E3FE97 /* Endpoints.swift */,
+				4D52806C27B7241B00E3FE97 /* Env.swift */,
+				4DDFB15E27BC447B00AF6BF4 /* Utils.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4D52806527B700FA00E3FE97 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				4D52806827B70FAD00E3FE97 /* Files */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		4D52806827B70FAD00E3FE97 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D52806627B7017600E3FE97 /* launch-demo.mov */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		4D52806927B71B0F00E3FE97 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				4D52805E27B6F67D00E3FE97 /* VideoModel.swift */,
+				4D52806A27B71B2800E3FE97 /* VideoModelAPIRequests.swift */,
+				4D52806E27BABFAB00E3FE97 /* VideoNotifier.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		4DDFB15D27BC3D4000AF6BF4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D52802F27B6F13D00E3FE97 /* LoopingVideoCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D52802927B6F13D00E3FE97 /* Vybey-Boi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D52804E27B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-Boi" */;
+			buildPhases = (
+				4D52802627B6F13D00E3FE97 /* Sources */,
+				4D52802727B6F13D00E3FE97 /* Frameworks */,
+				4D52802827B6F13D00E3FE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vybey-Boi";
+			productName = "Vybey-Boi";
+			productReference = 4D52802A27B6F13D00E3FE97 /* Vybey-Boi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D52803927B6F13F00E3FE97 /* Vybey-BoiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D52805127B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-BoiTests" */;
+			buildPhases = (
+				4D52803627B6F13F00E3FE97 /* Sources */,
+				4D52803727B6F13F00E3FE97 /* Frameworks */,
+				4D52803827B6F13F00E3FE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D52803C27B6F13F00E3FE97 /* PBXTargetDependency */,
+			);
+			name = "Vybey-BoiTests";
+			productName = "Vybey-BoiTests";
+			productReference = 4D52803A27B6F13F00E3FE97 /* Vybey-BoiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D52804327B6F13F00E3FE97 /* Vybey-BoiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D52805427B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-BoiUITests" */;
+			buildPhases = (
+				4D52804027B6F13F00E3FE97 /* Sources */,
+				4D52804127B6F13F00E3FE97 /* Frameworks */,
+				4D52804227B6F13F00E3FE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D52804627B6F13F00E3FE97 /* PBXTargetDependency */,
+			);
+			name = "Vybey-BoiUITests";
+			productName = "Vybey-BoiUITests";
+			productReference = 4D52804427B6F13F00E3FE97 /* Vybey-BoiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D52802227B6F13D00E3FE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4D52802927B6F13D00E3FE97 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					4D52803927B6F13F00E3FE97 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 4D52802927B6F13D00E3FE97;
+					};
+					4D52804327B6F13F00E3FE97 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 4D52802927B6F13D00E3FE97;
+					};
+				};
+			};
+			buildConfigurationList = 4D52802527B6F13D00E3FE97 /* Build configuration list for PBXProject "Vybey-Boi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D52802127B6F13D00E3FE97;
+			productRefGroup = 4D52802B27B6F13D00E3FE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D52802927B6F13D00E3FE97 /* Vybey-Boi */,
+				4D52803927B6F13F00E3FE97 /* Vybey-BoiTests */,
+				4D52804327B6F13F00E3FE97 /* Vybey-BoiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D52802827B6F13D00E3FE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52806727B7017600E3FE97 /* launch-demo.mov in Resources */,
+				4D52803527B6F13F00E3FE97 /* Preview Assets.xcassets in Resources */,
+				4D52803227B6F13F00E3FE97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52803827B6F13F00E3FE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52804227B6F13F00E3FE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D52802627B6F13D00E3FE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52805B27B6F17200E3FE97 /* SBVideoScroll.swift in Sources */,
+				4D52806F27BABFAB00E3FE97 /* VideoNotifier.swift in Sources */,
+				4D811BF927BBF2B50076FE32 /* SBScrollView.swift in Sources */,
+				4D52803027B6F13D00E3FE97 /* LoopingVideoCell.swift in Sources */,
+				4D52805D27B6F22C00E3FE97 /* WebService.swift in Sources */,
+				4D52806D27B7241B00E3FE97 /* Env.swift in Sources */,
+				4D52806427B6F93900E3FE97 /* Endpoints.swift in Sources */,
+				4D52806B27B71B2800E3FE97 /* VideoModelAPIRequests.swift in Sources */,
+				4D52805F27B6F67D00E3FE97 /* VideoModel.swift in Sources */,
+				4D52802E27B6F13D00E3FE97 /* Vybey_BoiApp.swift in Sources */,
+				4D52806227B6F6FC00E3FE97 /* Constants.swift in Sources */,
+				4DDFB15F27BC447B00AF6BF4 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52803627B6F13F00E3FE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52803F27B6F13F00E3FE97 /* Vybey_BoiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52804027B6F13F00E3FE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52804927B6F13F00E3FE97 /* Vybey_BoiUITests.swift in Sources */,
+				4D52804B27B6F13F00E3FE97 /* Vybey_BoiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D52803C27B6F13F00E3FE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D52802927B6F13D00E3FE97 /* Vybey-Boi */;
+			targetProxy = 4D52803B27B6F13F00E3FE97 /* PBXContainerItemProxy */;
+		};
+		4D52804627B6F13F00E3FE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D52802927B6F13D00E3FE97 /* Vybey-Boi */;
+			targetProxy = 4D52804527B6F13F00E3FE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D52804C27B6F13F00E3FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D52804D27B6F13F00E3FE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D52804F27B6F13F00E3FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vybey-Boi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vybey-Boi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-Boi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D52805027B6F13F00E3FE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vybey-Boi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vybey-Boi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-Boi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D52805227B6F13F00E3FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-BoiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vybey-Boi.app/Vybey-Boi";
+			};
+			name = Debug;
+		};
+		4D52805327B6F13F00E3FE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-BoiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vybey-Boi.app/Vybey-Boi";
+			};
+			name = Release;
+		};
+		4D52805527B6F13F00E3FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-BoiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vybey-Boi";
+			};
+			name = Debug;
+		};
+		4D52805627B6F13F00E3FE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W3WS8TBTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Spaceboat.Vybey-BoiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vybey-Boi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D52802527B6F13D00E3FE97 /* Build configuration list for PBXProject "Vybey-Boi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D52804C27B6F13F00E3FE97 /* Debug */,
+				4D52804D27B6F13F00E3FE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D52804E27B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-Boi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D52804F27B6F13F00E3FE97 /* Debug */,
+				4D52805027B6F13F00E3FE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D52805127B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-BoiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D52805227B6F13F00E3FE97 /* Debug */,
+				4D52805327B6F13F00E3FE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D52805427B6F13F00E3FE97 /* Build configuration list for PBXNativeTarget "Vybey-BoiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D52805527B6F13F00E3FE97 /* Debug */,
+				4D52805627B6F13F00E3FE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D52802227B6F13D00E3FE97 /* Project object */;
+}
